@@ -3,7 +3,7 @@ Kaschuso api
 
 
 
-##usage 
+## usage 
 *currently only working with the MAPS major*
 
 
