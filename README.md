@@ -10,7 +10,7 @@ Kaschuso api
   
 ### usage
 ```
-{getGrades, getMaj, getClasses} = require("sodseus");
+const {getGrades, getMaj, getClasses} = require("sodseus");
 
 (async () => {
   let grades = await getGrades("username", "password", "Class")
@@ -19,6 +19,5 @@ Kaschuso api
   
   console.log(classes, major, grades)
 })()
-
-
 ```
+**The Class parameter for getGrades has to be one of the classes, that get returned from getClasses**
