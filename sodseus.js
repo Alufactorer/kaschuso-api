@@ -132,7 +132,6 @@ async function getGrades(username, password, maj){
   return gradearrayobject;
 }
 
-getGrades("alim.weber", "Venawa34puwa&", "BiG").then(console.log)
 
 //works but needs performance 
 
